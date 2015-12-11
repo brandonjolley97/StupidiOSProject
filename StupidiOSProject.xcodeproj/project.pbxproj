@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068FF5271C1B29FC0069FFDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068FF5261C1B29FC0069FFDD /* AppDelegate.swift */; };
+		068FF5291C1B29FC0069FFDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068FF5281C1B29FC0069FFDD /* ViewController.swift */; };
+		068FF52C1C1B29FC0069FFDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068FF52A1C1B29FC0069FFDD /* Main.storyboard */; };
+		068FF52E1C1B29FC0069FFDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068FF52D1C1B29FC0069FFDD /* Images.xcassets */; };
+		068FF5311C1B29FC0069FFDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068FF52F1C1B29FC0069FFDD /* LaunchScreen.xib */; };
+		068FF53D1C1B29FC0069FFDD /* StupidiOSProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068FF53C1C1B29FC0069FFDD /* StupidiOSProjectTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		068FF5371C1B29FC0069FFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 068FF5191C1B29FC0069FFDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068FF5201C1B29FC0069FFDD;
+			remoteInfo = StupidiOSProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068FF5211C1B29FC0069FFDD /* StupidiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StupidiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		068FF5251C1B29FC0069FFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068FF5261C1B29FC0069FFDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		068FF5281C1B29FC0069FFDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		068FF52B1C1B29FC0069FFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		068FF52D1C1B29FC0069FFDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		068FF5301C1B29FC0069FFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		068FF5361C1B29FC0069FFDD /* StupidiOSProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StupidiOSProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		068FF53B1C1B29FC0069FFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068FF53C1C1B29FC0069FFDD /* StupidiOSProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StupidiOSProjectTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		068FF51E1C1B29FC0069FFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068FF5331C1B29FC0069FFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068FF5181C1B29FC0069FFDD = {
+			isa = PBXGroup;
+			children = (
+				068FF5231C1B29FC0069FFDD /* StupidiOSProject */,
+				068FF5391C1B29FC0069FFDD /* StupidiOSProjectTests */,
+				068FF5221C1B29FC0069FFDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		068FF5221C1B29FC0069FFDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				068FF5211C1B29FC0069FFDD /* StupidiOSProject.app */,
+				068FF5361C1B29FC0069FFDD /* StupidiOSProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		068FF5231C1B29FC0069FFDD /* StupidiOSProject */ = {
+			isa = PBXGroup;
+			children = (
+				068FF5261C1B29FC0069FFDD /* AppDelegate.swift */,
+				068FF5281C1B29FC0069FFDD /* ViewController.swift */,
+				068FF52A1C1B29FC0069FFDD /* Main.storyboard */,
+				068FF52D1C1B29FC0069FFDD /* Images.xcassets */,
+				068FF52F1C1B29FC0069FFDD /* LaunchScreen.xib */,
+				068FF5241C1B29FC0069FFDD /* Supporting Files */,
+			);
+			path = StupidiOSProject;
+			sourceTree = "<group>";
+		};
+		068FF5241C1B29FC0069FFDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				068FF5251C1B29FC0069FFDD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		068FF5391C1B29FC0069FFDD /* StupidiOSProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				068FF53C1C1B29FC0069FFDD /* StupidiOSProjectTests.swift */,
+				068FF53A1C1B29FC0069FFDD /* Supporting Files */,
+			);
+			path = StupidiOSProjectTests;
+			sourceTree = "<group>";
+		};
+		068FF53A1C1B29FC0069FFDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				068FF53B1C1B29FC0069FFDD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		068FF5201C1B29FC0069FFDD /* StupidiOSProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068FF5401C1B29FC0069FFDD /* Build configuration list for PBXNativeTarget "StupidiOSProject" */;
+			buildPhases = (
+				068FF51D1C1B29FC0069FFDD /* Sources */,
+				068FF51E1C1B29FC0069FFDD /* Frameworks */,
+				068FF51F1C1B29FC0069FFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StupidiOSProject;
+			productName = StupidiOSProject;
+			productReference = 068FF5211C1B29FC0069FFDD /* StupidiOSProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		068FF5351C1B29FC0069FFDD /* StupidiOSProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068FF5431C1B29FC0069FFDD /* Build configuration list for PBXNativeTarget "StupidiOSProjectTests" */;
+			buildPhases = (
+				068FF5321C1B29FC0069FFDD /* Sources */,
+				068FF5331C1B29FC0069FFDD /* Frameworks */,
+				068FF5341C1B29FC0069FFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				068FF5381C1B29FC0069FFDD /* PBXTargetDependency */,
+			);
+			name = StupidiOSProjectTests;
+			productName = StupidiOSProjectTests;
+			productReference = 068FF5361C1B29FC0069FFDD /* StupidiOSProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		068FF5191C1B29FC0069FFDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jolley, Brandon";
+				TargetAttributes = {
+					068FF5201C1B29FC0069FFDD = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					068FF5351C1B29FC0069FFDD = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 068FF5201C1B29FC0069FFDD;
+					};
+				};
+			};
+			buildConfigurationList = 068FF51C1C1B29FC0069FFDD /* Build configuration list for PBXProject "StupidiOSProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 068FF5181C1B29FC0069FFDD;
+			productRefGroup = 068FF5221C1B29FC0069FFDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				068FF5201C1B29FC0069FFDD /* StupidiOSProject */,
+				068FF5351C1B29FC0069FFDD /* StupidiOSProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		068FF51F1C1B29FC0069FFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068FF52C1C1B29FC0069FFDD /* Main.storyboard in Resources */,
+				068FF5311C1B29FC0069FFDD /* LaunchScreen.xib in Resources */,
+				068FF52E1C1B29FC0069FFDD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068FF5341C1B29FC0069FFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		068FF51D1C1B29FC0069FFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068FF5291C1B29FC0069FFDD /* ViewController.swift in Sources */,
+				068FF5271C1B29FC0069FFDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068FF5321C1B29FC0069FFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068FF53D1C1B29FC0069FFDD /* StupidiOSProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		068FF5381C1B29FC0069FFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 068FF5201C1B29FC0069FFDD /* StupidiOSProject */;
+			targetProxy = 068FF5371C1B29FC0069FFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		068FF52A1C1B29FC0069FFDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068FF52B1C1B29FC0069FFDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		068FF52F1C1B29FC0069FFDD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068FF5301C1B29FC0069FFDD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		068FF53E1C1B29FC0069FFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		068FF53F1C1B29FC0069FFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		068FF5411C1B29FC0069FFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StupidiOSProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		068FF5421C1B29FC0069FFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StupidiOSProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		068FF5441C1B29FC0069FFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StupidiOSProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StupidiOSProject.app/StupidiOSProject";
+			};
+			name = Debug;
+		};
+		068FF5451C1B29FC0069FFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StupidiOSProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StupidiOSProject.app/StupidiOSProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068FF51C1C1B29FC0069FFDD /* Build configuration list for PBXProject "StupidiOSProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068FF53E1C1B29FC0069FFDD /* Debug */,
+				068FF53F1C1B29FC0069FFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068FF5401C1B29FC0069FFDD /* Build configuration list for PBXNativeTarget "StupidiOSProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068FF5411C1B29FC0069FFDD /* Debug */,
+				068FF5421C1B29FC0069FFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		068FF5431C1B29FC0069FFDD /* Build configuration list for PBXNativeTarget "StupidiOSProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068FF5441C1B29FC0069FFDD /* Debug */,
+				068FF5451C1B29FC0069FFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 068FF5191C1B29FC0069FFDD /* Project object */;
+}
