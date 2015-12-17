@@ -156,6 +156,7 @@
 		068FF5191C1B29FC0069FFDD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Jolley, Brandon";
 				TargetAttributes = {
@@ -411,6 +412,7 @@
 				068FF5421C1B29FC0069FFDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		068FF5431C1B29FC0069FFDD /* Build configuration list for PBXNativeTarget "StupidiOSProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +421,7 @@
 				068FF5451C1B29FC0069FFDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
