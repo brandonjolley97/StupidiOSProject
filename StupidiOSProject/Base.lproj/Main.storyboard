@@ -25,19 +25,19 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MhP-kF-CbY"/>
+                                    <action selector="randomColorChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k77-Ff-kNp"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="85N-0e-ZJr">
                                 <rect key="frame" x="241" y="323" width="118" height="31"/>
                                 <connections>
-                                    <action selector="colorChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="BEV-Em-tJs"/>
+                                    <action selector="changeRed:" destination="BYZ-38-t0r" eventType="valueChanged" id="zl3-HL-GbI"/>
                                 </connections>
                             </slider>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F6M-bZ-aWb">
                                 <rect key="frame" x="276" y="246" width="51" height="31"/>
                                 <connections>
-                                    <action selector="colorChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="Vb1-it-M3N"/>
+                                    <action selector="hasRed:" destination="BYZ-38-t0r" eventType="valueChanged" id="3Zt-dD-FDO"/>
                                 </connections>
                             </switch>
                         </subviews>
